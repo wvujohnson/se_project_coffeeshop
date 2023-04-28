@@ -14,3 +14,4 @@ This is the second project of the Web Development program at Practicum. It was c
 ## Plan on improving the project
 
 Add your ideas here :)
+Would like to implement some audio, and more videos.
