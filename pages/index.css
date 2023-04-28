@@ -10,6 +10,7 @@
 .header {
   background-color: #ffffff;
   background-image: url(../images/background_header.svg);
-  position: cover;
+  background-position: cover;
+  background-repeat: no-repeat;
 
 }
