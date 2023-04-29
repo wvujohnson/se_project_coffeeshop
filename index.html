@@ -98,8 +98,48 @@
             </div>
           </div>
         </section>
+        <section class="reservation" id="book_a_table">
+          <h2 class="reservation_title">Book a table</h2>
+          <form class="form reservation_form">
+            <fieldset class="form_fieldset">
+              <label for="name" class="form_label">Name*</label>
+              <input class="form_input"
+                     type="text"
+                     id="name"
+                     placeholder="Name Surname"
+                     required
+                     />
+              <label for="number" class="form_label">Number of guests* </label>
+                <input class="form__input"
+                       type="number"
+                       id="number"
+                       placeholder="1-8"
+                       required
+                      />
+              <label for="datetime" class="form_label"> Date & time* </label>
+                <input class="form"
+                       type="datetime-local"
+                       id="datetime"
+                       required
+                       />
+              <label for="email" class="form_label">Your email* </label>
+                <input class="form_input"
+                       id="email"
+                       type="email"
+                       placeholder="email@email.com"
+                       required
+                       />
+              <button type="button" class="form_button">Book a table</button>
+              <label class="form_checkbox">
+                 <input type="checkbox" class="form_checkbox-invisible"/>
+                   <span class="form_checkbox-visible"></span>I agree with the terms of use
+
+              </label>
+            </fieldset>
+          </form>
+        </section>
+
         <section class="menu" id="menu"></section>
-        <section class="reservation" id="book_a_table"></section>
         <section class="about" id="about"></section>
        </main>
     </div>
